@@ -1,0 +1,15 @@
+{
+    "args" : [
+        "-ID:/Progs/Media/Anaconda/envs/rstudio/Library/share/rstudio/resources/libclang/builtin-headers/3.4",
+        "-ID:/Progs/Media/Rtools/mingw_64/x86_64-w64-mingw32/include",
+        "-ID:/Progs/Media/Rtools/mingw_64/x86_64-w64-mingw32/include/c++",
+        "-ID:/Progs/Media/Rtools/mingw_64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32",
+        "-IC:/Users/Asia/OneDrive/Dokumenty/R/win-library/3.6/Rcpp/include",
+        "-std=gnu++11",
+        "-IC:/PROGRA~1/R/R-36~1.3/include",
+        "-DNDEBUG"
+    ],
+    "hash" : "1609697342",
+    "is_cpp" : true,
+    "pch" : "Rcpp"
+}

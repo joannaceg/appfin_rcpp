@@ -1,0 +1,14 @@
+Package: appfinRcpp
+Type: Package
+Title: Down-and-in put option price
+Version: 0.1.0
+Author: Joanna Ceglinska
+Maintainer: Joanna Ceglinska <ceglinska.joanna@gmail.com>
+Description: The package calculates the theoretical price of down-and-in put option (using Monte Carlo simulation). 
+    The algorithm generates a number of price paths defined by user. For each path, if the minimum price 
+    is below the barrier price, the payoff is equal to vanilla put option, else the payoff is zero.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp

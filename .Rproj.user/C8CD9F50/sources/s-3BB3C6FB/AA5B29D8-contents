@@ -1,0 +1,13 @@
+library(Rcpp)
+
+# install.packages("roxygen2")
+library(devtools)
+library(roxygen2)
+getwd()
+setwd("D:/R_Python/appfinRcpp")
+
+devtools::create("D:/R_Python/appfinRcpp")
+
+
+sourceCpp('src/main.cpp')
+
